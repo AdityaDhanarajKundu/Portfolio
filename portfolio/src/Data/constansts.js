@@ -35,8 +35,7 @@ export const skills = [
       },
       {
         name: "Java Swing",
-        image:
-          "https://velog.velcdn.com/images/kjy5947/post/31e7fe72-4361-4bed-941a-43ddd7cd8207/javaswing.jpg",
+        image: "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
       },
       {
         name: "HTML",
@@ -46,6 +45,14 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "SASS",
+        image: "https://img.icons8.com/color/96/sass.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "https://img.icons8.com/color/96/tailwind_css.png",
       },
       {
         name: "JavaScript",
@@ -78,8 +85,7 @@ export const skills = [
       },
       {
         name: "Spring Boot",
-        image:
-          "https://miro.medium.com/v2/resize:fit:720/format:webp/0*R60lnmJl4hanOBaJ.png",
+        image: "https://img.icons8.com/color/96/spring-logo.png",
       },
       {
         name: "Python",
@@ -88,8 +94,7 @@ export const skills = [
       },
       {
         name: "Java",
-        image:
-          "https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png",
+        image: "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
       },
       {
         name: "MySQL",
@@ -112,17 +117,61 @@ export const skills = [
     ],
   },
   {
+    title: "Data Science",
+    skills: [
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Pandas",
+        image: "https://img.icons8.com/color/96/pandas.png",
+      },
+      {
+        name: "NumPy",
+        image: "https://img.icons8.com/color/96/numpy.png",
+      },
+      {
+        name: "Scikit-Learn",
+        image:
+          "https://banner2.cleanpng.com/20180817/ysc/kisspng-logo-scikit-learn-python-github-portable-network-g-go-to-image-page-5b77997b36f4f5.3677823415345647312251.jpg",
+      },
+      {
+        name: "Matplotlib",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/2048px-Matplotlib_icon.svg.png",
+      },
+      {
+        name: "Seaborn",
+        image:
+          "https://seeklogo.com/images/S/seaborn-logo-244EB2DEC5-seeklogo.com.png",
+      },
+      {
+        name: "Plotly",
+        image:
+          "https://banner2.cleanpng.com/20180420/pke/kisspng-plotly-data-visualization-chart-javascript-hottest-5ada70131b6602.3118492415242649791122.jpg",
+      },
+      {
+        name: "Jupyter Notebook",
+        image: "https://img.icons8.com/fluency/96/jupyter.png",
+      },
+      {
+        name: "Google Colab",
+        image: "https://img.icons8.com/color/96/google-colab.png",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
         name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        image: "https://img.icons8.com/color/96/git.png",
       },
       {
         name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        image: "https://img.icons8.com/ios-glyphs/90/FFFFFF/github.png",
       },
       {
         name: "Netlify",
@@ -135,14 +184,21 @@ export const skills = [
           "https://img.freepik.com/premium-vector/cloud-coding-icon-vector-image-can-be-used-computer-science_120816-148542.jpg?w=826",
       },
       {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        name: "Azure",
+        image: "https://img.icons8.com/fluency/96/azure-1.png",
+      },
+      {
+        name: "AWS",
+        image: "https://img.icons8.com/nolan/96/amazon-web-services.png",
+      },
+      {
+        name: "GCP",
+        image: "https://img.icons8.com/color/96/google-cloud.png",
       },
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
       },
       {
         name: "Adobe Photoshop",
@@ -153,6 +209,14 @@ export const skills = [
         name: "IntelliJ IDEA",
         image:
           "https://logowik.com/content/uploads/images/intellij-idea286.logowik.com.webp",
+      },
+      {
+        name: "VS Code",
+        image: "https://img.icons8.com/fluency/96/visual-studio-code-2019.png",
+      },
+      {
+        name: "Unreal Engine",
+        image: "https://img.icons8.com/nolan/96/unreal-engine.png",
       },
     ],
   },
