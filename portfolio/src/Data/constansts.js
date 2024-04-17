@@ -8,6 +8,7 @@ export const Bio = {
     "UI/UX Designer",
     "Full Stack Developer",
     "Java Developer",
+    "MERN Stack Developer",
   ],
   description:
     "I am a motivated individual who is passionate about coding and designing. I am a quick learner and a team player. I am always eager to learn new technologies and implement them in my projects. With positive attitude towards growth mindset I always seek opportunities to make effective contributions and achieve great things.",

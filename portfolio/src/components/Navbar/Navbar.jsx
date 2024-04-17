@@ -57,6 +57,7 @@ function Navbar() {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#certification">Certification</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton>GitHub</GitHubButton>
@@ -103,6 +104,14 @@ function Navbar() {
             }}
           >
             Education
+          </MobileLink>
+          <MobileLink
+            href="#certification"
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
+            Certification
           </MobileLink>
           <GitHubButton
             style={{

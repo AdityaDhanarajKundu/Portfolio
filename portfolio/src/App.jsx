@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/heroSection/Hero";
 import Skills from "./components/skills/Skills";
 import Education from "./components/Education/Education";
+import Certification from "./components/Certification/Certification";
 import { BrowserRouter } from "react-router-dom";
 
 // custom defined components
@@ -41,6 +42,7 @@ function App() {
           <Wrapper>
             <Skills />
             <Education />
+            <Certification />
           </Wrapper>
         </Body>
       </BrowserRouter>
