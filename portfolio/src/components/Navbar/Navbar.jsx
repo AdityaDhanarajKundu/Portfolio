@@ -47,7 +47,6 @@ function Navbar() {
         <MobileIcon>
           <FaBars
             onClick={() => {
-              console.log("clicked");
               setIsOpen(!isOpen);
             }}
           />
@@ -80,14 +79,6 @@ function Navbar() {
             }}
           >
             Skills
-          </MobileLink>
-          <MobileLink
-            href="#experience"
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-          >
-            Experience
           </MobileLink>
           <MobileLink
             href="#projects"

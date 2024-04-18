@@ -1,5 +1,10 @@
 import social from "../assets/social.png";
 import dashboard from "../assets/dashboard.png";
+import datacamp from "../assets/Certificates/datacamp.jpeg";
+import python from "../assets/Certificates/python.jpeg";
+import ml from "../assets/Certificates/ml.jpeg";
+import forage from "../assets/Certificates/forage.jpeg";
+import gdsc from "../assets/Certificates/gdsc.png";
 
 export const Bio = {
   name: "Aditya Kundu",
@@ -455,15 +460,32 @@ export const certifications = [
     img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~532VNVJB3NZX/CERTIFICATE_LANDING_PAGE~532VNVJB3NZX.jpeg",
     credential:
       "https://www.coursera.org/account/accomplishments/verify/532VNVJB3NZX",
+    skills: [
+      "Machine Learning",
+      "Data Science",
+      "AI & ML Tools",
+      "AI strategy",
+    ],
+    desc: "AI is not only for engineers. “AI for Everyone”, a non-technical course, will help you understand AI technologies and spot opportunities to apply AI to problems in your own organization. You will see examples of what today’s AI can – and cannot – do. Finally, you will understand how AI is impacting society and how to navigate through this technological change.",
   },
   {
     id: 1,
     title: "Data Analysis with Python",
     date: "Jul 2023",
     organization: "DataCamp",
-    img: "https://www.datacamp.com/statement-of-accomplishment/track/f21ae14ec1b8c65d9914c84860b7344a6cc756f6?raw=1",
+    img: datacamp,
     credential:
       "https://www.datacamp.com/completed/statement-of-accomplishment/track/f21ae14ec1b8c65d9914c84860b7344a6cc756f6",
+    skills: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Seaborn",
+      "Statistics",
+      "Data Visualization",
+      "Hypothesis Testing",
+    ],
+    Desc: "This track will introduce you to the world of data analysis with Python. You'll learn how to use Pandas, NumPy, and Seaborn to manipulate, analyze, and visualize data. You'll also learn how to use statistics and hypothesis testing to make informed decisions for your data.",
   },
   {
     id: 2,
@@ -472,23 +494,36 @@ export const certifications = [
     organization: "Amazon Web Services (AWS)",
     img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~AR8T4G75C9JV/CERTIFICATE_LANDING_PAGE~AR8T4G75C9JV.jpeg",
     credential: "https://coursera.org/verify/AR8T4G75C9JV",
+    skills: ["AWS", "Amazon SageMaker", "Machine Learning", "No-Code ML"],
+    desc: "In this course, you will learn how to build, train machine learning models using Amazon SageMaker, a fully-managed machine learning service on AWS that enables you to quickly build, train, and deploy machine learning models at scale.",
   },
   {
     id: 3,
     title: "30 Hours Training in Python Programming",
     date: "Apr 2023",
     organization: "Ardent Computech Pvt. Ltd.",
-    img: "https://certificate.ardentsoftware.co.in/generate/59834",
+    img: python,
     credential: "https://certificate.ardentsoftware.co.in/generate/59834",
+    skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Data Structures"],
+    desc: "This is a 30 hours training program in Python Programming from Ardent Computech Pvt. Ltd included in our Beyond Curriculum Training Program of our university. I have learned Python Programming, Data Structures, Pandas, NumPy, Matplotlib, and many more.",
   },
   {
     id: 4,
     title: "30 Hours Training in Artificial Intelligence & Machine Learning",
     date: "Mar 2023",
     organization: "Ardent Computech Pvt. Ltd.",
-    img: "https://drive.google.com/file/d/19BVaSV8QYNJibFfrwSE1LnLqmegzTteL/view?usp=share_link",
+    img: ml,
     credential:
       "https://drive.google.com/file/d/19BVaSV8QYNJibFfrwSE1LnLqmegzTteL/view?usp=share_link",
+    skills: [
+      "Machine Learning",
+      "AI & ML Tools",
+      "Data Visualization",
+      "Data Filtering",
+      "Data Cleaning",
+      "Data Preprocessing",
+    ],
+    desc: "This is a 30 hours training program in Artificial Intelligence & Machine Learning from Ardent Computech Pvt. Ltd included in our Beyond Curriculum Training Program of our university. I have learned Machine Learning, AI & ML Tools, Data Visualization, Data Filtering, Data Cleaning, Data Preprocessing, and many more.",
   },
   {
     id: 5,
@@ -497,23 +532,48 @@ export const certifications = [
     organization: "University of Amsterdam",
     img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~7NRXA76RXYEM/CERTIFICATE_LANDING_PAGE~7NRXA76RXYEM.jpeg",
     credential: "https://coursera.org/verify/7NRXA76RXYEM",
+    skills: [
+      "statistics",
+      "Statistical Analysis",
+      "Hypothetis Testing",
+      "R Programming",
+    ],
+    desc: "Understanding statistics is essential to understand research in the social and behavioral sciences. In this course you will learn the basics of statistics; not just how to calculate them, but also how to evaluate them.",
   },
   {
     id: 6,
     title: "Accenture Nordics Virtual Experience Program",
     date: "Oct 2022",
     organization: "Forage",
-    img: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_4e9iqiCEubohc2sN2_1666471455999_completion_certificate.pdf",
+    img: forage,
     credential: "https://www.theforage.com/achievements?ref=4e9iqiCEubohc2sN2",
+    skills: [
+      "Problem Solving",
+      "Critical Thinking",
+      "Data Analysis",
+      "Business Development",
+    ],
+    desc: "This virtual experience program is designed to simulate the real-world experience of working at Accenture Nordics. The tasks are designed to help you develop the skills needed to excel in a role at Accenture Nordics.",
   },
   {
     id: 7,
     title: "Google Cloud Career Practitioner Pathway Campaign",
     date: "Oct 2022",
     organization: "Google Cloud Community India",
-    img: "https://certificate.givemycertificate.com/c/dc187c43-97ac-4826-bad8-3b5bfeb7b434",
+    img: gdsc,
     credential:
       "https://certificate.givemycertificate.com/c/dc187c43-97ac-4826-bad8-3b5bfeb7b434",
+    skills: [
+      "Google Cloud Platform",
+      "Kubernetes",
+      "Docker",
+      "Containers",
+      "Clusters",
+      "Cloud Computing",
+      "Google Cloud Essentials",
+      "Google Cloud Basics",
+    ],
+    desc: "The Google Cloud Career Practitioner Pathway Campaign is a learning program designed to help you learn the basics of Google Cloud Platform and kickstart your career in cloud computing.",
   },
   {
     id: 8,
@@ -523,6 +583,14 @@ export const certifications = [
     img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~AXBTSWTYVL3K/CERTIFICATE_LANDING_PAGE~AXBTSWTYVL3K.jpeg",
     credential:
       "https://www.coursera.org/account/accomplishments/verify/AXBTSWTYVL3K",
+    skills: [
+      "First Order Differential Equations",
+      "Second Order Differential Equations",
+      "Laplace Transforms",
+      "Fourier Series",
+      "Partial Differential Equations",
+    ],
+    desc: "This course is all about differential equations and covers both theory and applications. In the first five weeks, students will learn about ordinary differential equations, while the sixth week is an introduction to partial differential equations.",
   },
   {
     id: 9,
@@ -532,5 +600,14 @@ export const certifications = [
     img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~YBYKW2Z4JB2D/CERTIFICATE_LANDING_PAGE~YBYKW2Z4JB2D.jpeg",
     credential:
       "https://www.coursera.org/account/accomplishments/verify/YBYKW2Z4JB2D",
+    skills: [
+      "Critical Thinking",
+      "Data Analysis",
+      "Statistics",
+      "Probability",
+      "Decision Making",
+      "Coginitive Bias",
+    ],  
+    desc: "Most professions these days require more than general intelligence. They require in addition the ability to collect, analyze and think about data. Personal life is enriched when these same skills are applied to problems in everyday life involving judgment and choice. This course presents basic concepts from statistics, probability, scientific methodology, cognitive psychology and cost-benefit theory and shows how they can be applied to everything from picking one product over another to critiquing media accounts of scientific research.",
   },
 ];
