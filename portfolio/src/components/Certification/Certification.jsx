@@ -23,7 +23,7 @@ function Certification() {
               <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index !== certifications.length - 1 && (
+                  {index <= certifications.length - 1 && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
                 </TimelineSeparator>
