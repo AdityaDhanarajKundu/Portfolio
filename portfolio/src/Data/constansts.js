@@ -5,6 +5,7 @@ import python from "../assets/Certificates/python.jpeg";
 import ml from "../assets/Certificates/ml.jpeg";
 import forage from "../assets/Certificates/forage.jpeg";
 import gdsc from "../assets/Certificates/gdsc.png";
+import savm from "../assets/savm.jpeg";
 
 export const Bio = {
   name: "Aditya Kundu",
@@ -424,7 +425,7 @@ export const projects = [
 export const education = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/JIS_University.svg/180px-JIS_University.svg.png",
+    img: "https://universitykart.b-cdn.net//Content/upload/admin/ibzugngs.iqg.png",
     school: "JIS University, Kolkata",
     date: "Sep 2021 - Sep 2025",
     grade: "8.62 CGPA",
@@ -442,7 +443,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://savmalumni.com/wp-content/themes/alumnisavm/assets/img/logo.png",
+    img: savm,
     school: "Sri Aurobindo Vidyamandir, Chandernagore",
     date: "2009 - 2019",
     grade: "79.43%",
