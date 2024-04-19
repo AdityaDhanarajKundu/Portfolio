@@ -53,6 +53,8 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Certification />
+          </Wrapper>
+          <Wrapper>
             <Contact />
           </Wrapper>
           {openModal.state && (

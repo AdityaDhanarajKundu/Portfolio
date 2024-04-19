@@ -31,7 +31,12 @@ function Navbar() {
         <NavLogo to="/">
           <img
             src={logo}
-            style={{ width: "60px", height: "60px", borderRadius: "80%", marginTop: "10px" }}
+            style={{
+              width: "60px",
+              height: "60px",
+              borderRadius: "80%",
+              marginTop: "10px",
+            }}
           />
           {/* <HiOutlineChevronDoubleLeft size="3rem" /> */}
           <Span>Aditya Dhanaraj Kundu</Span>
@@ -49,9 +54,12 @@ function Navbar() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#certification">Certification</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_self">GitHub</GitHubButton>
+          <GitHubButton href={Bio.github} target="_self">
+            GitHub
+          </GitHubButton>
         </ButtonContainer>
       </NavbarContainer>
       {isOpen && (
@@ -95,6 +103,14 @@ function Navbar() {
             }}
           >
             Certification
+          </MobileLink>
+          <MobileLink
+            href="#contact"
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
+            Contact
           </MobileLink>
           <GitHubButton
             style={{
