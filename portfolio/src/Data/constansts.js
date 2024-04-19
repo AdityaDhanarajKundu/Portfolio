@@ -22,7 +22,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/10YGSep9D2Zl3NhVgvhVQDpkVA12G1nWo/view?usp=sharing",
   github: "https://github.com/AdityaDhanarajKundu",
-  linkedin: "www.linkedin.com/in/aditya-kundu-476485222",
+  linkedin: "https://www.linkedin.com/in/aditya-kundu-476485222/",
   twitter: "https://twitter.com/dhanaraj_kundu",
   facebook: "https://www.facebook.com/aditya.kundu.3979",
   insta: "https://www.instagram.com/dhanaraj_kundu/",
