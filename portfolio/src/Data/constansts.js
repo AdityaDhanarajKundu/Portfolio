@@ -6,6 +6,7 @@ import ml from "../assets/Certificates/ml.jpeg";
 import forage from "../assets/Certificates/forage.jpeg";
 import gdsc from "../assets/Certificates/gdsc.png";
 import savm from "../assets/savm.jpeg";
+import menu from "../assets/menu.jpeg";
 
 export const Bio = {
   name: "Aditya Kundu",
@@ -341,25 +342,14 @@ export const projects = [
   },
   {
     id: 5,
-    title: "View-Insights",
-    date: "December 2023 - December 2024",
+    title: "React Frontend Projects",
+    date: "November 2023 - November 2024",
     description:
-      "This is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) admin panel web application created in order to gain knowledge about the structure of a typical MERN application.",
-    image: dashboard,
-    tags: [
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Mongoose",
-      "React",
-      "Redux Toolkit",
-      "Material UI",
-      "Redux Toolkit Query",
-      "Nivo",
-    ],
+      "A collection of React frontend projects that I have worked on.",
+    image: menu,
+    tags: ["React", "Node Js", "Redux Toolkit", "Material UI"],
     category: "web app",
-    github:
-      "https://github.com/AdityaDhanarajKundu/FullStack-Admin-Dashboard.git",
+    github: "https://github.com/AdityaDhanarajKundu/React_Projects.git",
   },
   {
     id: 6,
@@ -416,7 +406,7 @@ export const projects = [
       "Support Vector Machine(SVM)",
       "Support Vector Classifier(SVC)",
     ],
-    category: "ai ml",
+    category: "machine learning",
     github:
       "https://github.com/AdityaDhanarajKundu/Heart-Disease-Prediction-Using-SVC-ML-model.git",
   },

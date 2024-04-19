@@ -1,11 +1,15 @@
 import "./App.css";
+import { useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { darkTheme } from "./utils/Themes";
+import { darkTheme, lightTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/heroSection/Hero";
 import Skills from "./components/skills/Skills";
 import Education from "./components/Education/Education";
+import Projects from "./components/Projects/Projects";
 import Certification from "./components/Certification/Certification";
+import Contact from "./components/Contact/Contact";
+import ProjectModal from "./components/Projects/ProjectModal";
 import { BrowserRouter } from "react-router-dom";
 
 // custom defined components
@@ -33,8 +37,11 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+  const [openModal, setOpenModal] = useState({state: false, project: null});
+  
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <BrowserRouter>
         <Navbar />
         <Body>
@@ -42,8 +49,15 @@ function App() {
           <Wrapper>
             <Skills />
             <Education />
-            <Certification />
           </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Certification />
+            <Contact />
+          </Wrapper>
+          {openModal.state && (
+            <ProjectModal openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </BrowserRouter>
     </ThemeProvider>

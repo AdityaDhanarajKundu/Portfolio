@@ -14,7 +14,7 @@ import {
   MobileLink,
 } from "./NavStyledComponents";
 import { FaBars } from "react-icons/fa";
-import { DiCssdeck } from "react-icons/di";
+import { HiOutlineChevronDoubleLeft } from "react-icons/hi2";
 import {Bio} from "../../Data/constansts";
 import {Close, CloseRounded} from "@mui/icons-material";
 import { useTheme } from "styled-components";
@@ -29,20 +29,12 @@ function Navbar() {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          {/* <img
+          <img
             src={logo}
-            style={{ width: "100px", height: "100px", borderRadius: "50%", marginTop: "30px" }}
-          /> */}
-          {/* <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20",
-              cursor: "pointer",
-            }}
-          ></a> */}
-          <DiCssdeck size="3rem" /> <Span>Aditya Dhanaraj Kundu</Span>
+            style={{ width: "60px", height: "60px", borderRadius: "80%", marginTop: "10px" }}
+          />
+          {/* <HiOutlineChevronDoubleLeft size="3rem" /> */}
+          <Span>Aditya Dhanaraj Kundu</Span>
         </NavLogo>
         <MobileIcon>
           <FaBars
@@ -59,7 +51,7 @@ function Navbar() {
           <NavLink href="#certification">Certification</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton>GitHub</GitHubButton>
+          <GitHubButton href={Bio.github} target="_self">GitHub</GitHubButton>
         </ButtonContainer>
       </NavbarContainer>
       {isOpen && (
