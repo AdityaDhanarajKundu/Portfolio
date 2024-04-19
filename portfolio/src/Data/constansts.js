@@ -24,6 +24,8 @@ export const Bio = {
   github: "https://github.com/AdityaDhanarajKundu",
   linkedin: "www.linkedin.com/in/aditya-kundu-476485222",
   twitter: "https://twitter.com/dhanaraj_kundu",
+  facebook: "https://www.facebook.com/aditya.kundu.3979",
+  insta: "https://www.instagram.com/dhanaraj_kundu/",
 };
 
 export const skills = [

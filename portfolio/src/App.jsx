@@ -10,6 +10,7 @@ import Projects from "./components/Projects/Projects";
 import Certification from "./components/Certification/Certification";
 import Contact from "./components/Contact/Contact";
 import ProjectModal from "./components/Projects/ProjectModal";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter } from "react-router-dom";
 
 // custom defined components
@@ -57,6 +58,7 @@ function App() {
           <Wrapper>
             <Contact />
           </Wrapper>
+          <Footer />
           {openModal.state && (
             <ProjectModal openModal={openModal} setOpenModal={setOpenModal} />
           )}
