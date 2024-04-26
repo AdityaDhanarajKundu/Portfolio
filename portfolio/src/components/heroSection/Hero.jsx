@@ -14,6 +14,7 @@ import {
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../Data/constansts";
 import HeroBgAnimation from "../HeroBgAnimation/HeroBgAnimation";
+import profile from "../../assets/profile.jpg";
 
 function Hero() {
   return (
@@ -47,7 +48,7 @@ function Hero() {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src="https://scontent.fccu27-2.fna.fbcdn.net/v/t39.30808-6/334674572_1605373083301759_822714610745195265_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mG9GSMvvVaUAb7uaYb0&_nc_ht=scontent.fccu27-2.fna&oh=00_AfBLm-gXtQfM0_dTDcwfV5uTRJRTGfHga4VcDFMKhxr4xg&oe=662598BA" alt="hero" />
+            <Img src={profile} alt="hero" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
