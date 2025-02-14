@@ -308,7 +308,7 @@ export const skills = [
 export const projects = [
   {
     id: 0,
-    title: "Nerdy Archive",
+    title: "E-motionAI",
     date: "January 2025 - Present",
     description:
       "A modern Android application built with Jetpack Compose, Material3, and MVVM architecture, integrating AI-driven mood analysis and sentiment tracking. This app features text-based emotion analysis, guided meditation, smart voice recommendations, and mood insights, with planned enhancements for voice journaling, AI-powered mood prediction, and a chatbot.",
