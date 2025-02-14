@@ -1,4 +1,7 @@
 import social from "../assets/social.png";
+import text from "../assets/text.png";
+import archive from "../assets/archive.png";
+import logoMain from "../assets/logoMain.png"
 import dashboard from "../assets/dashboard.png";
 import datacamp from "../assets/Certificates/datacamp.jpeg";
 import python from "../assets/Certificates/python.jpeg";
@@ -12,10 +15,10 @@ export const Bio = {
   name: "Aditya Kundu",
   roles: [
     "CSE Undergrad",
-    "UI/UX Designer",
-    "Full Stack Developer",
-    "Java Developer",
+    "Java Full Stack Developer",
     "MERN Stack Developer",
+    "Android Developer",
+    "Tech Enthusiast",
   ],
   description:
     "I am a motivated individual who is passionate about coding and designing. I am a quick learner and a team player. I am always eager to learn new technologies and implement them in my projects. With positive attitude towards growth mindset I always seek opportunities to make effective contributions and achieve great things.",
@@ -29,6 +32,38 @@ export const Bio = {
 };
 
 export const skills = [
+  {
+    title: "Programming Languages",
+    skills: [
+      {
+        name: "Java",
+        image: "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
+      },
+      {
+        name: "Python",
+        image: "https://img.icons8.com/fluency/96/python.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "C++",
+        image: "https://img.icons8.com/color/96/c-plus-plus-logo.png",
+      },
+      {
+        name: "C",
+        image:
+          "https://img.icons8.com/?size=100&id=40670&format=png&color=000000",
+      },
+      {
+        name: "Kotlin",
+        image:
+          "https://img.icons8.com/?size=100&id=ZoxjA0jZDdFZ&format=png&color=000000",
+      },
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -47,6 +82,16 @@ export const skills = [
         image: "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
       },
       {
+        name: "Jetpack Compose",
+        image:
+          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC97Z8BResg5dlPqczsRCFhP6zewWX0X0e7fVPG-G7PuUZwwZVsi9OPoqJYkgqT2h0FI95SsmWzVEgpt8b8HAqFiIxZ98TFtY4lE0b8UrtVJ2HrJebRwl6C9DslsQDl9KnBIrdHS6LtkY/s1600/jetpack+compose+icon_RGB.png",
+      },
+      {
+        name: "Tkinter",
+        image:
+          "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/412/890/datas/gallery.jpg",
+      },
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -62,11 +107,6 @@ export const skills = [
       {
         name: "Tailwind CSS",
         image: "https://img.icons8.com/color/96/tailwind_css.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
         name: "Bootstrap",
@@ -97,13 +137,9 @@ export const skills = [
         image: "https://img.icons8.com/color/96/spring-logo.png",
       },
       {
-        name: "Python",
+        name: "Flask",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Java",
-        image: "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWo7cBYeUesXieYg2fmHmid8Lx9crujCejYA&s",
       },
       {
         name: "MySQL",
@@ -120,6 +156,29 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "RoomDB",
+        image:
+          "https://img.icons8.com/?size=100&id=17836&format=png&color=000000",
+      },
+      {
+        name: "Sequelize",
+        image: "https://sequelize.org/img/logo.svg",
+      },
+      {
+        name: "Hibernate",
+        image:
+          "https://e7.pngegg.com/pngimages/154/543/png-clipart-brown-and-gray-geometric-illustration-hibernate-logo-icons-logos-emojis-tech-companies-thumbnail.png",
+      },
+      {
+        name: "SQLite",
+        image: "https://www.sqlite.org/images/sqlite370_banner.svg",
+      },
+      {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
@@ -128,11 +187,6 @@ export const skills = [
   {
     title: "Data Science",
     skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
       {
         name: "Pandas",
         image: "https://img.icons8.com/color/96/pandas.png",
@@ -169,6 +223,16 @@ export const skills = [
         name: "Google Colab",
         image: "https://img.icons8.com/color/96/google-colab.png",
       },
+      {
+        name: "Hugginface",
+        image:
+          "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+      },
+      {
+        name: "Kaggle",
+        image:
+          "https://w7.pngwing.com/pngs/1002/482/png-transparent-kaggle-logos-and-brands-line-filled-icon-thumbnail.png",
+      },
     ],
   },
   {
@@ -186,6 +250,11 @@ export const skills = [
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Vercel",
+        image:
+          "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vercel.png",
       },
       {
         name: "Cloud Computing",
@@ -220,6 +289,11 @@ export const skills = [
           "https://logowik.com/content/uploads/images/intellij-idea286.logowik.com.webp",
       },
       {
+        name: "Android Studio",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/128px-Android_Studio_icon_%282023%29.svg.png?20230919062400",
+      },
+      {
         name: "VS Code",
         image: "https://img.icons8.com/fluency/96/visual-studio-code-2019.png",
       },
@@ -234,8 +308,75 @@ export const skills = [
 export const projects = [
   {
     id: 0,
+    title: "Nerdy Archive",
+    date: "January 2025 - Present",
+    description:
+      "A modern Android application built with Jetpack Compose, Material3, and MVVM architecture, integrating AI-driven mood analysis and sentiment tracking. This app features text-based emotion analysis, guided meditation, smart voice recommendations, and mood insights, with planned enhancements for voice journaling, AI-powered mood prediction, and a chatbot.",
+    image: logoMain,
+    tags: [
+      "Kotlin",
+      "Jetpack Compose",
+      "RoomDB",
+      "Firebase",
+      "Retrofit",
+      "MVVM",
+      "Torch",
+      "Flask",
+      "Sentiment Analysis",
+    ],
+    category: "android app",
+    github:
+      "https://github.com/AdityaDhanarajKundu/AI-Mental-Health-Companion-Android-App",
+  },
+  {
+    id: 1,
+    title: "Nerdy Archive",
+    date: "December 2024 - December 2024",
+    description:
+      "Nerdy Archive(LMS) is a digital archive for the e-books while providing a Library Management System for the libraries to manage the transactions of the physical copies of the books.",
+    image: archive,
+    tags: [
+      "NodeJs",
+      "ExpressJs",
+      "MySQL",
+      "JWT Auth",
+      "Web",
+      "app",
+      "library",
+      "react router",
+      "crypto",
+    ],
+    category: "web app",
+    github:
+      "https://github.com/AdityaDhanarajKundu/LibraryManagementSystem.git",
+  },
+  {
+    id: 2,
+    title: "Text and File Encryption and Decryption Tool",
+    date: "August 2024 - November 2024",
+    description:
+      "The Text & File Encrypter and Decrypter is a Python-based GUI desktop application for securely encrypting and decrypting text and files using the AES encryption algorithm",
+    image: text,
+    tags: [
+      "Python",
+      "Tkinter",
+      "PyCryptodome",
+      "PyInstaller",
+      "Desktop",
+      "app",
+      "Cryptography",
+      "AES-CBC",
+      "AES-GCM",
+      "Encryption",
+      "Decryption",
+    ],
+    category: "desktop app",
+    github: "https://github.com/Arthur00199/Encrypter",
+  },
+  {
+    id: 3,
     title: "ChatterBox",
-    date: "March 2024 - Present",
+    date: "March 2024 - April 2024",
     description:
       "A social media application using spring boot and react with chatting and posting features.",
     image: social,
@@ -257,7 +398,7 @@ export const projects = [
       "https://github.com/AdityaDhanarajKundu/Java_Springboot_Social_Media.git",
   },
   {
-    id: 1,
+    id: 4,
     title: "Employee Management System(EMS) CRUD application",
     date: "February 2024 - March 2024",
     description:
@@ -280,7 +421,7 @@ export const projects = [
       "https://github.com/AdityaDhanarajKundu/EmployeeManagementSystem.git",
   },
   {
-    id: 2,
+    id: 5,
     title: "ShopEzz",
     date: "February 2024 - February 2024",
     description:
@@ -301,7 +442,7 @@ export const projects = [
     github: "https://github.com/AdityaDhanarajKundu/fullstack-ecommerce.git",
   },
   {
-    id: 3,
+    id: 6,
     title: "Chatify",
     date: "December 2023 - January 2024",
     description:
@@ -321,7 +462,7 @@ export const projects = [
     github: "https://github.com/AdityaDhanarajKundu/ChatApplication.git",
   },
   {
-    id: 4,
+    id: 7,
     title: "View-Insights",
     date: "December 2023 - December 2024",
     description:
@@ -343,7 +484,7 @@ export const projects = [
       "https://github.com/AdityaDhanarajKundu/FullStack-Admin-Dashboard.git",
   },
   {
-    id: 5,
+    id: 8,
     title: "React Frontend Projects",
     date: "November 2023 - November 2024",
     description:
@@ -354,7 +495,7 @@ export const projects = [
     github: "https://github.com/AdityaDhanarajKundu/React_Projects.git",
   },
   {
-    id: 6,
+    id: 9,
     title: "Travel Management System in Java",
     date: "June 2023 - July 2023",
     description:
@@ -373,7 +514,7 @@ export const projects = [
       "https://github.com/AdityaDhanarajKundu/Travel-Management-System.git",
   },
   {
-    id: 7,
+    id: 10,
     title: "Bank Management System in Java",
     date: "June 2023 - June 2023",
     description:
@@ -389,28 +530,6 @@ export const projects = [
     ],
     category: "desktop app",
     github: "https://github.com/AdityaDhanarajKundu/Bank-Management-System.git",
-  },
-  {
-    id: 8,
-    title: "Heart Disease Prediction Model",
-    date: "April 2023 - April 2023",
-    description:
-      "A machine learning model that predicts the presence of heart disease in a patient based on various health parameters using the Support Vector Machine (SVM) algorithm.",
-    image: null,
-    tags: [
-      "Python",
-      "Jupyter Notebook",
-      "Pandas",
-      "Numpy",
-      "Matplotlib",
-      "Seaborn",
-      "Scikit-learn",
-      "Support Vector Machine(SVM)",
-      "Support Vector Classifier(SVC)",
-    ],
-    category: "machine learning",
-    github:
-      "https://github.com/AdityaDhanarajKundu/Heart-Disease-Prediction-Using-SVC-ML-model.git",
   },
 ];
 

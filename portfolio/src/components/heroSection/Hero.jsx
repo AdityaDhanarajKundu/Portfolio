@@ -30,7 +30,7 @@ function Hero() {
               {Bio.name}
             </Title>
             <TextLoop>
-              I am a
+              I am 
               <Span>
                 <Typewriter
                   options={{

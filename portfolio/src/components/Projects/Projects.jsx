@@ -100,15 +100,45 @@ function Projects({openModal, setOpenModal}) {
               MACHINE LEARNING
             </ToggleButton>
           )}
+          <Divider />
+          {toggle === "android app" ? (
+            <ToggleButton
+              active
+              value="android app"
+              onClick={() => setToggle("android app")}
+            >
+              ANDROID APPS
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value="android app"
+              onClick={() => setToggle("android app")}
+            >
+              ANDROID APPS
+            </ToggleButton>
+          )}
         </ToggleButtonGroup>
 
         <CardContainer>
-          {toggle == "all" && projects.map((project,index)=>(
-            <ProjectCard key={index} project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-          ))}
-          {projects.filter((item)=> item.category === toggle).map((project,index)=>(
-            <ProjectCard key={index} project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-          ))}
+          {toggle == "all" &&
+            projects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                project={project}
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            ))}
+          {projects
+            .filter((item) => item.category === toggle)
+            .map((project, index) => (
+              <ProjectCard
+                key={index}
+                project={project}
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            ))}
         </CardContainer>
       </Wrapper>
     </Container>
